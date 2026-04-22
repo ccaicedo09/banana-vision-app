@@ -1,0 +1,27 @@
+export const theme = {
+  colors: {
+    background: "#F4F7F2",
+    surface: "#FFFFFF",
+    primary: "#2E7D32",
+    primaryPressed: "#256628",
+    secondary: "#E8F3E9",
+    text: "#142013",
+    textSoft: "#5B6B5B",
+    border: "#D6E2D3",
+    dark: "#243244",
+    darkPressed: "#1E293B",
+    danger: "#C62828",
+    dangerPressed: "#A61F1F",
+    white: "#FFFFFF",
+    shadow: "rgba(16, 24, 40, 0.08)",
+    overlayDark: "rgba(0,0,0,0.58)",
+  },
+  radius: {
+    sm: 12,
+    md: 18,
+    lg: 24,
+    xl: 32,
+    full: 999,
+  },
+  spacing: (n: number) => n * 8,
+};
