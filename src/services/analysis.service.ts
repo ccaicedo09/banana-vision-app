@@ -5,7 +5,7 @@ import {
 } from "../types/database";
 import { PredictionResult } from "../types/prediction";
 
-const BUCKET_NAME = "leaf-images";
+const BUCKET_NAME = "analysis-images";
 
 function getFileExtension(uri: string, mimeType?: string) {
   if (mimeType?.includes("/")) {

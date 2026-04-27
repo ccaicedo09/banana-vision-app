@@ -3,10 +3,10 @@ import { useEffect, useState } from "react";
 import { FlatList, RefreshControl, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-import AppButton from "../../components/AppButton";
 import AnalysisHistoryCard from "../../components/AnalysisHistoryCard";
+import AppButton from "../../components/AppButton";
 import FloatingHomeButton from "../../components/FloatingHomeButton";
-import { listUserAnalyses } from "../../services/analysis.service";
+import { listUserAnalyses } from "../../services/prediction.service";
 import { AnalysisWithSignedUrl } from "../../types/database";
 import styles from "./history.styles";
 

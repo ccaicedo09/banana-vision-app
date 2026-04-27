@@ -1,19 +1,19 @@
 import { router, useLocalSearchParams } from "expo-router";
 import { useEffect, useMemo, useState } from "react";
 import {
-  ActivityIndicator,
-  Image,
-  ScrollView,
-  Text,
-  View,
+    ActivityIndicator,
+    Image,
+    ScrollView,
+    Text,
+    View,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import AnalysisSummaryCard from "../../components/AnalysisSummaryCard";
 import AppButton from "../../components/AppButton";
 import { theme } from "../../constants/theme";
-import { getAnalysisById } from "../../services/analysis.service";
 import { predictLeafMock } from "../../services/prediction.mock";
+import { getAnalysisById } from "../../services/prediction.service";
 import { AnalysisWithSignedUrl } from "../../types/database";
 import { PredictionResult } from "../../types/prediction";
 import styles from "./result.styles";
